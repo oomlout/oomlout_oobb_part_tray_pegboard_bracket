@@ -44,26 +44,26 @@ thing:
   - - height: 2
       pos:
       - 0
-      - 1.5
-      - 4.5
+      - 2.0
+      - 0
       r: 0.625
       shape: rounded_rectangle
       size:
       - 9.5
-      - 6.5
-      - 4.5
+      - 5.5
+      - 9
       type: positive
       width: 2
   - - height: 2
       pos:
       - 0
-      - 1.5
+      - 2.0
       - 5.7
       r: 1
       shape: rounded_rectangle
       size:
       - 19.7
-      - 2.7
+      - 1.7000000000000002
       - 3.3
       type: positive
       width: 2
@@ -107,83 +107,88 @@ thing:
       type: positive
       width: 2
   - - objects:
-      - height: 5
+      - depth: 5
+        height: 5
         inclusion: laser
         m: '#'
         pos:
         - 0
         - 0
         - 0
-        r: 5.77
+        r: 3.1734999999999998
         shape: polyg
         sides: 6
         type: positive
         width: 2
-      - - - - - - height: 2
+      - - - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -5.0
+                  - -1.75
+                  - -3.25
                   - -0.3
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 10
+                  - 3.5
+                  - 6.5
                   - 0.3
                   type: positive
                   width: 2
-          - - - - height: 2
+          - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -2.875
+                  - -1.75
+                  - -1.75
                   - -0.6
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 5.75
+                  - 3.5
+                  - 3.5
                   - 0.3
                   type: positive
                   width: 2
-      - - - - - - height: 2
+      - - - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -5.0
+                  - -1.75
+                  - -3.25
                   - 5
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 10
+                  - 3.5
+                  - 6.5
                   - 0.3
                   type: positive
                   width: 2
-          - - - - height: 2
+          - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -2.875
+                  - -1.75
+                  - -1.75
                   - 5.3
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 5.75
+                  - 3.5
+                  - 3.5
                   - 0.3
                   type: positive
                   width: 2
@@ -195,7 +200,7 @@ thing:
           - 0
           - 0
           - -100.0
-          r: 3.0
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
@@ -204,7 +209,7 @@ thing:
           inclusion: 3dpr
           m: '#'
           pos: *id001
-          r: 3.25
+          r: 1.8
           shape: cylinder
           type: positive
           width: 2
@@ -213,87 +218,92 @@ thing:
           inclusion: 'true'
           m: '#'
           pos: *id001
-          r: 3.0
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
-      - height: 5
+      - depth: 5
+        height: 5
         inclusion: 3dpr
         m: '#'
         pos:
         - 0
         - 0
         - 0
-        r: 5.914249999999999
+        r: 3.4619999999999997
         shape: polyg
         sides: 6
         type: positive
         width: 2
-      - - - - - - height: 2
+      - - - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -5.0
+                  - -1.75
+                  - -3.25
                   - -0.3
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 10
+                  - 3.5
+                  - 6.5
                   - 0.3
                   type: positive
                   width: 2
-          - - - - height: 2
+          - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -2.875
+                  - -1.75
+                  - -1.75
                   - -0.6
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 5.75
+                  - 3.5
+                  - 3.5
                   - 0.3
                   type: positive
                   width: 2
-      - - - - - - height: 2
+      - - - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -5.0
+                  - -1.75
+                  - -3.25
                   - 5
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 10
+                  - 3.5
+                  - 6.5
                   - 0.3
                   type: positive
                   width: 2
-          - - - - height: 2
+          - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -2.875
+                  - -1.75
+                  - -1.75
                   - 5.3
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 5.75
+                  - 3.5
+                  - 3.5
                   - 0.3
                   type: positive
                   width: 2
@@ -305,7 +315,7 @@ thing:
           - 0
           - 0
           - -100.0
-          r: 3.0
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
@@ -314,7 +324,7 @@ thing:
           inclusion: 3dpr
           m: '#'
           pos: *id002
-          r: 3.25
+          r: 1.8
           shape: cylinder
           type: positive
           width: 2
@@ -323,87 +333,92 @@ thing:
           inclusion: 'true'
           m: '#'
           pos: *id002
-          r: 3.0
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
-      - height: 5
+      - depth: 5
+        height: 5
         inclusion: 'true'
         m: '#'
         pos:
         - 0
         - 0
         - 0
-        r: 5.77
+        r: 3.1734999999999998
         shape: polyg
         sides: 6
         type: positive
         width: 2
-      - - - - - - height: 2
+      - - - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -5.0
+                  - -1.75
+                  - -3.25
                   - -0.3
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 10
+                  - 3.5
+                  - 6.5
                   - 0.3
                   type: positive
                   width: 2
-          - - - - height: 2
+          - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -2.875
+                  - -1.75
+                  - -1.75
                   - -0.6
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 5.75
+                  - 3.5
+                  - 3.5
                   - 0.3
                   type: positive
                   width: 2
-      - - - - - - height: 2
+      - - - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -5.0
+                  - -1.75
+                  - -3.25
                   - 5
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 10
+                  - 3.5
+                  - 6.5
                   - 0.3
                   type: positive
                   width: 2
-          - - - - height: 2
+          - - - - depth: 5
+                  height: 2
                   inclusion: 3dpr
                   m: '#'
                   pos:
-                  - -2.875
-                  - -2.875
+                  - -1.75
+                  - -1.75
                   - 5.3
                   rotX: 0
                   rotY: 0
                   rotZ: 0
                   shape: cube
                   size:
-                  - 5.75
-                  - 5.75
+                  - 3.5
+                  - 3.5
                   - 0.3
                   type: positive
                   width: 2
@@ -415,7 +430,7 @@ thing:
           - 0
           - 0
           - -100.0
-          r: 3.0
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
@@ -424,7 +439,7 @@ thing:
           inclusion: 3dpr
           m: '#'
           pos: *id003
-          r: 3.25
+          r: 1.8
           shape: cylinder
           type: positive
           width: 2
@@ -433,13 +448,13 @@ thing:
           inclusion: 'true'
           m: '#'
           pos: *id003
-          r: 3.0
+          r: 1.5
           shape: cylinder
           type: positive
           width: 2
       pos:
       - 0
-      - 1.5
+      - 2.0
       - 0
       rot:
       - 0
@@ -466,15 +481,15 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 1.5
-    - 4.5
+    - 2.0
+    - 0
     radius: 0.625
     save_type: none
     shape: rounded_rectangle
     size:
     - 9.5
-    - 6.5
-    - 4.5
+    - 5.5
+    - 9
     thickness: 9
     type: positive
     width: 2
@@ -497,14 +512,14 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 1.5
+    - 2.0
     - 5.7
     radius: 1
     save_type: none
     shape: rounded_rectangle
     size:
     - 19.7
-    - 2.7
+    - 1.7000000000000002
     - 3.3
     thickness: 9
     type: positive
@@ -602,7 +617,8 @@ thing:
     thickness: 9
     type: positive
     width: 2
-  - filter: ''
+  - depth: 5
+    filter: ''
     height: 2
     hole: true
     m: '#'
@@ -623,21 +639,21 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 1.5
+    - 2.0
     - 0
-    radius_name: m6
+    radius_name: m3
     save_type: none
     shape: oobb_nut
     thickness: 9
     type: n
     width: 2
   components_string:
-  - rounded_rectangle_shape_positive_type_0_1.5_4.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_0.625_radius_9.5_6.5_4.5_size
-  - rounded_rectangle_shape_positive_type_0_1.5_5.7_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_19.7_2.7_3.3_size_true_holes
+  - rounded_rectangle_shape_positive_type_0_2.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_0.625_radius_9.5_5.5_9_size
+  - rounded_rectangle_shape_positive_type_0_2.0_5.7_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_19.7_1.7000000000000002_3.3_size_true_holes
   - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_19.7_5.7_5.7_size_true_holes
   - rounded_rectangle_shape_positive_type_0_0_6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_14.5_3_size_true_holes
   - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_14.5_6_size_true_holes
-  - oobb_nut_shape_n_type_m6_radius_name_0_1.5_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_true_hole_true_overhang
+  - oobb_nut_shape_n_type_m3_radius_name_5_depth_0_2.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_2_width_2_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_true_hole_true_overhang
   description: oomlout oobb part tray pegboard bracket base 2x2x9
   description_extra: ''
   description_main: 2_width_2_height_9_mm_depth

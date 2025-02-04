@@ -153,7 +153,8 @@ def get_base(thing, **kwargs):
     extra = kwargs.get("extra", "")
     
 
-    depth_latch = 3
+    depth_latch = 4
+    shift_nut = depth_latch / 2
     thickness_material = 3
     width_piece = 20
     tolerance = 0.5
@@ -167,7 +168,7 @@ def get_base(thing, **kwargs):
         
         wid = 10 - tolerance
         hei = 10 - tolerance - depth_latch
-        dep = thickness_material + 1 + tolerance
+        dep = depth#thickness_material + 1 + tolerance
         size = [wid, hei, dep]
         p3["size"] = size
         pos1 = copy.deepcopy(pos)         
@@ -269,14 +270,14 @@ def get_base(thing, **kwargs):
     p3["pos"] = pos1
     #oobb_base.append_full(thing,**p3)
 
-    shift_nut = 1.5
+    
     #add mounting nut
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "n"
     p3["shape"] = f"oobb_nut"
-    #p3["depth"] = depth
+    p3["depth"] = 5
     p3["hole"] = True
-    p3["radius_name"] =  "m6"
+    p3["radius_name"] =  "m3"
     p3["m"] = "#"
     p3["overhang"] = True
     pos1 = copy.deepcopy(pos)
