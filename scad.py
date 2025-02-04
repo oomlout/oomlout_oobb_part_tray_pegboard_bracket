@@ -114,16 +114,16 @@ def make_scad(**kwargs):
         
         part = copy.deepcopy(part_default)
         p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
+        p3["width"] = 2
+        p3["height"] = 2
+        p3["thickness"] = 9
         #p3["extra"] = ""
         part["kwargs"] = p3
         nam = "base"
         part["name"] = nam
         if oomp_mode == "oobb":
             p3["oomp_size"] = nam
-        #parts.append(part)
+        parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -152,17 +152,111 @@ def get_base(thing, **kwargs):
     pos = kwargs.get("pos", [0, 0, 0])
     extra = kwargs.get("extra", "")
     
-    #add plate
-    p3 = copy.deepcopy(kwargs)
-    p3["type"] = "positive"
-    p3["shape"] = f"oobb_plate"    
-    p3["depth"] = depth
-    #p3["holes"] = True         uncomment to include default holes
-    #p3["m"] = "#"
-    pos1 = copy.deepcopy(pos)         
-    p3["pos"] = pos1
-    oobb_base.append_full(thing,**p3)
-    
+
+    depth_latch = 3
+    thickness_material = 3
+    width_piece = 20
+    tolerance = 0.5
+    #add middle plate
+    if True:
+        #top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"rounded_rectangle"  
+        p3["radius"]  = 0.625
+        
+        wid = 10 - tolerance
+        hei = 10 - tolerance - depth_latch
+        dep = thickness_material + 1 + tolerance
+        size = [wid, hei, dep]
+        p3["size"] = size
+        pos1 = copy.deepcopy(pos)         
+        pos1[1] += depth_latch / 2
+        pos1[2] += depth - dep
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+        
+        
+    #add cross plate
+    if True:
+        #top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"rounded_rectangle"
+        p3["radius"]  = 1
+        tolerance = 0.3
+        wid = width_piece - tolerance
+        hei = 6 - tolerance - depth_latch
+        dep = 3 + tolerance
+        size = [wid, hei, dep]
+        p3["size"] = size
+        p3["holes"] = True
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += depth_latch / 2
+        pos1[2] += depth - dep
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+        #inside
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"rounded_rectangle"
+        p3["radius"]  = 1        
+        wid = wid
+        hei = hei + depth_latch
+        dep = depth - thickness_material - tolerance
+        size = [wid, hei, dep]
+        p3["size"] = size
+        p3["holes"] = True
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += 0
+        pos1[2] += 0
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+    #add up and down plate
+        hei_middle_piece = 15
+    if True:
+        #top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"rounded_rectangle"
+        p3["radius"]  = 1
+        tolerance = 0.5
+        wid = 6 - tolerance
+        hei = hei_middle_piece - tolerance
+        dep = 3
+        size = [wid, hei, dep]
+        p3["size"] = size
+        p3["holes"] = True
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += 0
+        pos1[2] += depth - dep
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+        #inside
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"rounded_rectangle"
+        p3["radius"]  = 1        
+        wid = wid
+        hei = hei
+        dep = depth - 3
+        size = [wid, hei, dep]
+        p3["size"] = size
+        p3["holes"] = True
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 0
+        pos1[1] += 0
+        pos1[2] += 0
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+
+
     #add holes seperate
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "p"
@@ -172,6 +266,22 @@ def get_base(thing, **kwargs):
     p3["holes"] = "perimeter"
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    #oobb_base.append_full(thing,**p3)
+
+    shift_nut = 1.5
+    #add mounting nut
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "n"
+    p3["shape"] = f"oobb_nut"
+    #p3["depth"] = depth
+    p3["hole"] = True
+    p3["radius_name"] =  "m6"
+    p3["m"] = "#"
+    p3["overhang"] = True
+    pos1 = copy.deepcopy(pos)
+    pos1[0] += 0
+    pos1[1] += shift_nut
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
 
