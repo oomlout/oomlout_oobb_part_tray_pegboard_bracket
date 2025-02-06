@@ -1,0 +1,40 @@
+classification: project
+color: oomlout_oobb_part_tray_pegboard_bracket
+description_extra: ''
+description_main: team_1_width_1_height_9_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_part_tray_pegboard_bracket_team_1_width_1_height_9_mm_depth
+id_oobb: oobb_part_oomlout_oobb_part_tray_pegboard_bracket_team_1_width_1_height_9_mm_depth
+kwargs:
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+  oomp_description_extra: ''
+  oomp_description_main: team_1_width_1_height_9_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 9
+  type: oomlout_oobb_part_tray_pegboard_bracket_team
+  width: 1
+manufacturer: ''
+name: team
+part_number: ''
+project_name: C:\gh\oomlout_oobb_part_tray_pegboard_bracket
+size: oomlout
+type: github

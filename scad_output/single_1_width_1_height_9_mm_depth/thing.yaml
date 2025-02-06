@@ -1,0 +1,678 @@
+classification: project
+color: oomlout_oobb_part_tray_pegboard_bracket
+description_extra: ''
+description_main: single_1_width_1_height_9_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_oobb_part_tray_pegboard_bracket_single_1_width_1_height_9_mm_depth
+id_oobb: oobb_part_oomlout_oobb_part_tray_pegboard_bracket_single_1_width_1_height_9_mm_depth
+kwargs:
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+  oomp_description_extra: ''
+  oomp_description_main: single_1_width_1_height_9_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 9
+  type: oomlout_oobb_part_tray_pegboard_bracket_single
+  width: 1
+manufacturer: ''
+name: single
+part_number: ''
+project_name: C:\gh\oomlout_oobb_part_tray_pegboard_bracket
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - height: 1
+      pos:
+      - 0
+      - 2.0
+      - 0
+      r: 0.625
+      shape: rounded_rectangle
+      size:
+      - 9.5
+      - 5.5
+      - 9
+      type: positive
+      width: 1
+  - - height: 1
+      pos:
+      - 0
+      - 2.0
+      - 5.7
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 29.7
+      - 1.7000000000000002
+      - 3.3
+      type: positive
+      width: 1
+  - - height: 1
+      pos:
+      - 0
+      - 0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 29.7
+      - 5.7
+      - 5.7
+      type: positive
+      width: 1
+  - - height: 1
+      pos:
+      - 0
+      - -3.5
+      - 6
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 5.5
+      - 21.5
+      - 3
+      type: positive
+      width: 1
+  - - height: 1
+      pos:
+      - 0
+      - -3.5
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 5.5
+      - 21.5
+      - 6
+      type: positive
+      width: 1
+  - - objects:
+      - depth: 5
+        height: 5
+        inclusion: laser
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+      - - - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 1
+          - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 1
+      - - - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 1
+          - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 1
+      - - h: 200
+          height: 1
+          inclusion: laser
+          m: '#'
+          pos: &id001
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - h: 200
+          height: 1
+          inclusion: 3dpr
+          m: '#'
+          pos: *id001
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - h: 200
+          height: 1
+          inclusion: 'true'
+          m: '#'
+          pos: *id001
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      - depth: 5
+        height: 5
+        inclusion: 3dpr
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+      - - - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 1
+          - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 1
+      - - - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 1
+          - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 1
+      - - h: 200
+          height: 1
+          inclusion: laser
+          m: '#'
+          pos: &id002
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - h: 200
+          height: 1
+          inclusion: 3dpr
+          m: '#'
+          pos: *id002
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - h: 200
+          height: 1
+          inclusion: 'true'
+          m: '#'
+          pos: *id002
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      - depth: 5
+        height: 5
+        inclusion: 'true'
+        m: '#'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 1
+      - - - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 1
+          - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 1
+      - - - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -3.25
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 6.5
+                  - 0.3
+                  type: positive
+                  width: 1
+          - - - - depth: 5
+                  height: 1
+                  inclusion: 3dpr
+                  m: '#'
+                  pos:
+                  - -1.75
+                  - -1.75
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 3.5
+                  - 3.5
+                  - 0.3
+                  type: positive
+                  width: 1
+      - - h: 200
+          height: 1
+          inclusion: laser
+          m: '#'
+          pos: &id003
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+        - h: 200
+          height: 1
+          inclusion: 3dpr
+          m: '#'
+          pos: *id003
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 1
+        - h: 200
+          height: 1
+          inclusion: 'true'
+          m: '#'
+          pos: *id003
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 1
+      pos:
+      - 0
+      - 2.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: n
+  components_objects:
+  - filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 2.0
+    - 0
+    radius: 0.625
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 9.5
+    - 5.5
+    - 9
+    thickness: 9
+    type: positive
+    width: 1
+  - filter: ''
+    height: 1
+    holes: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 2.0
+    - 5.7
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 29.7
+    - 1.7000000000000002
+    - 3.3
+    thickness: 9
+    type: positive
+    width: 1
+  - filter: ''
+    height: 1
+    holes: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 29.7
+    - 5.7
+    - 5.7
+    thickness: 9
+    type: positive
+    width: 1
+  - filter: ''
+    height: 1
+    holes: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - -3.5
+    - 6
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 5.5
+    - 21.5
+    - 3
+    thickness: 9
+    type: positive
+    width: 1
+  - filter: ''
+    height: 1
+    holes: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - -3.5
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 5.5
+    - 21.5
+    - 6
+    thickness: 9
+    type: positive
+    width: 1
+  - depth: 5
+    filter: ''
+    height: 1
+    hole: true
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_oobb_part_tray_pegboard_bracket
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overhang: true
+    overwrite: true
+    pos:
+    - 0
+    - 2.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 9
+    type: n
+    width: 1
+  components_string:
+  - rounded_rectangle_shape_positive_type_0_2.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_0.625_radius_9.5_5.5_9_size
+  - rounded_rectangle_shape_positive_type_0_2.0_5.7_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_29.7_1.7000000000000002_3.3_size_true_holes
+  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_29.7_5.7_5.7_size_true_holes
+  - rounded_rectangle_shape_positive_type_0_-3.5_6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_21.5_3_size_true_holes
+  - rounded_rectangle_shape_positive_type_0_-3.5_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_21.5_6_size_true_holes
+  - oobb_nut_shape_n_type_m3_radius_name_5_depth_0_2.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_true_hole_true_overhang
+  description: oomlout oobb part tray pegboard bracket single 1x1x9
+  description_extra: ''
+  description_main: 1_width_1_height_9_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_tray_pegboard_bracket_single_1_width_1_height_9_mm_depth
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_oobb_part_tray_pegboard_bracket_single_1_width_1_height_9_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_tray_pegboard_bracket_single/1_width_1_height_9_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_tray_pegboard_bracket_single_01_01_09
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Part Tray Pegboard Bracket Single 1 Width 1 Height
+    9 mm Depth
+  name_short: Oomlout Tray Pegboard Bracket Single
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_part_tray_pegboard_bracket_single
+  thickness: 9
+  thickness_mm: 9
+  type: part
+  width: 1
+  width_mm: 14
+type: github
