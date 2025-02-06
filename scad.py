@@ -337,6 +337,7 @@ def get_single(thing, **kwargs):
     thickness_material = 3
     width_piece = 30
     tolerance = 0.5
+    tolerance_thickness = 1.5
     #add middle plate
     if True:
         #top
@@ -347,7 +348,7 @@ def get_single(thing, **kwargs):
         
         wid = 10 - tolerance
         hei = 10 - tolerance - depth_latch
-        dep = depth#thickness_material + 1 + tolerance
+        dep = depth - tolerance_thickness
         size = [wid, hei, dep]
         p3["size"] = size
         pos1 = copy.deepcopy(pos)         
@@ -373,9 +374,10 @@ def get_single(thing, **kwargs):
         p3["holes"] = True
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
-        pos1[1] += depth_latch / 2
+        pos1[1] += depth_latch / 2 - tolerance
         pos1[2] += depth - dep
         p3["pos"] = pos1
+        #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
         #inside
@@ -385,14 +387,14 @@ def get_single(thing, **kwargs):
         p3["radius"]  = 1        
         wid = wid
         hei = hei + depth_latch
-        dep = depth - thickness_material - tolerance
+        dep = depth - thickness_material - tolerance_thickness
         size = [wid, hei, dep]
         p3["size"] = size
         p3["holes"] = True
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
         pos1[1] += 0
-        pos1[2] += 0
+        pos1[2] += tolerance_thickness - tolerance
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
@@ -427,14 +429,14 @@ def get_single(thing, **kwargs):
         p3["radius"]  = 1        
         wid = wid
         hei = hei
-        dep = depth - 3
+        dep = depth - 3 - tolerance_thickness
         size = [wid, hei, dep]
         p3["size"] = size
         p3["holes"] = True
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
         pos1[1] += shift_middle
-        pos1[2] += 0
+        pos1[2] += tolerance_thickness
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
@@ -510,6 +512,7 @@ def get_team(thing, **kwargs):
     thickness_material = 3
     width_piece = 15
     tolerance = 0.5
+    tolerance_thickness = 1.5
     #add middle plate
     if True:
         #top
@@ -520,7 +523,7 @@ def get_team(thing, **kwargs):
         
         wid = 10 - tolerance
         hei = 10 - tolerance - depth_latch
-        dep = depth#thickness_material + 1 + tolerance
+        dep = depth - tolerance_thickness
         size = [wid, hei, dep]
         p3["size"] = size
         pos1 = copy.deepcopy(pos)         
@@ -537,7 +540,6 @@ def get_team(thing, **kwargs):
         p3["type"] = "positive"
         p3["shape"] = f"rounded_rectangle"
         p3["radius"]  = 1
-        tolerance = 0.3
         wid = width_piece - tolerance
         hei = 6 - tolerance - depth_latch
         dep = 3 + tolerance
@@ -546,9 +548,10 @@ def get_team(thing, **kwargs):
         p3["holes"] = True
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
-        pos1[1] += depth_latch / 2
+        pos1[1] += depth_latch / 2 - tolerance
         pos1[2] += depth - dep
         p3["pos"] = pos1
+        #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
         #inside
@@ -558,14 +561,14 @@ def get_team(thing, **kwargs):
         p3["radius"]  = 1        
         wid = wid
         hei = hei + depth_latch
-        dep = depth - thickness_material - tolerance
+        dep = depth - thickness_material  - tolerance_thickness - tolerance
         size = [wid, hei, dep]
         p3["size"] = size
         p3["holes"] = True
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
         pos1[1] += 0
-        pos1[2] += 0
+        pos1[2] += + tolerance_thickness
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 
@@ -580,7 +583,7 @@ def get_team(thing, **kwargs):
         tolerance = 0.5
         wid = 6 - tolerance
         hei = hei_middle_piece - tolerance
-        dep = 3
+        dep = 3 + tolerance
         size = [wid, hei, dep]
         p3["size"] = size
         p3["holes"] = True
@@ -598,14 +601,14 @@ def get_team(thing, **kwargs):
         p3["radius"]  = 1        
         wid = wid
         hei = hei
-        dep = depth - 3
+        dep = depth - 3 - tolerance_thickness - tolerance
         size = [wid, hei, dep]
         p3["size"] = size
         p3["holes"] = True
         pos1 = copy.deepcopy(pos)
         pos1[0] += 0
         pos1[1] += 0
-        pos1[2] += 0
+        pos1[2] += tolerance_thickness
         p3["pos"] = pos1
         oobb_base.append_full(thing,**p3)
 

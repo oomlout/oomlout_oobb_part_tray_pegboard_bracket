@@ -45,19 +45,19 @@ thing:
       pos:
       - 0
       - 2.0
-      - 0
+      - 1.5
       r: 0.625
       shape: rounded_rectangle
       size:
       - 9.5
       - 5.5
-      - 9
+      - 7.5
       type: positive
       width: 1
   - - height: 1
       pos:
       - 0
-      - 2.0
+      - 1.7
       - 5.7
       r: 1
       shape: rounded_rectangle
@@ -71,13 +71,13 @@ thing:
       pos:
       - 0
       - 0
-      - 0
+      - 1.2
       r: 1
       shape: rounded_rectangle
       size:
       - 29.7
       - 5.7
-      - 5.7
+      - 4.5
       type: positive
       width: 1
   - - height: 1
@@ -97,13 +97,13 @@ thing:
       pos:
       - 0
       - -3.5
-      - 0
+      - 1.5
       r: 1
       shape: rounded_rectangle
       size:
       - 5.5
       - 21.5
-      - 6
+      - 4.5
       type: positive
       width: 1
   - - objects:
@@ -482,14 +482,14 @@ thing:
     pos:
     - 0
     - 2.0
-    - 0
+    - 1.5
     radius: 0.625
     save_type: none
     shape: rounded_rectangle
     size:
     - 9.5
     - 5.5
-    - 9
+    - 7.5
     thickness: 9
     type: positive
     width: 1
@@ -512,7 +512,7 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 2.0
+    - 1.7
     - 5.7
     radius: 1
     save_type: none
@@ -544,14 +544,14 @@ thing:
     pos:
     - 0
     - 0
-    - 0
+    - 1.2
     radius: 1
     save_type: none
     shape: rounded_rectangle
     size:
     - 29.7
     - 5.7
-    - 5.7
+    - 4.5
     thickness: 9
     type: positive
     width: 1
@@ -606,14 +606,14 @@ thing:
     pos:
     - 0
     - -3.5
-    - 0
+    - 1.5
     radius: 1
     save_type: none
     shape: rounded_rectangle
     size:
     - 5.5
     - 21.5
-    - 6
+    - 4.5
     thickness: 9
     type: positive
     width: 1
@@ -648,11 +648,11 @@ thing:
     type: n
     width: 1
   components_string:
-  - rounded_rectangle_shape_positive_type_0_2.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_0.625_radius_9.5_5.5_9_size
-  - rounded_rectangle_shape_positive_type_0_2.0_5.7_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_29.7_1.7000000000000002_3.3_size_true_holes
-  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_29.7_5.7_5.7_size_true_holes
+  - rounded_rectangle_shape_positive_type_0_2.0_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_0.625_radius_9.5_5.5_7.5_size
+  - rounded_rectangle_shape_positive_type_0_1.7_5.7_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_29.7_1.7000000000000002_3.3_size_true_holes
+  - rounded_rectangle_shape_positive_type_0_0_1.2_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_29.7_5.7_4.5_size_true_holes
   - rounded_rectangle_shape_positive_type_0_-3.5_6_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_21.5_3_size_true_holes
-  - rounded_rectangle_shape_positive_type_0_-3.5_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_21.5_6_size_true_holes
+  - rounded_rectangle_shape_positive_type_0_-3.5_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_1_radius_5.5_21.5_4.5_size_true_holes
   - oobb_nut_shape_n_type_m3_radius_name_5_depth_0_2.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_oobb_part_tray_pegboard_bracket_oomp_color_true_hole_true_overhang
   description: oomlout oobb part tray pegboard bracket single 1x1x9
   description_extra: ''
